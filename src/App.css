@@ -1,0 +1,68 @@
+body {
+  background-color: bisque;;
+}
+
+.App {
+  background-color: bisque;
+  min-height: 100vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.crossed {
+ text-decoration: line-through 2px red;
+  background-color: bisque;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  background: #3daa06;
+  margin-top: 10px;
+  padding: 10px;
+border: none;
+border-radius: 10px;
+width: 50%;
+color: white;
+font-size: 15px;
+font-family: "Roboto", sans-serif;
+}
+
+.delete {
+  background: #d30100;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  color: white;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  border-radius: 10px;
+}
+
